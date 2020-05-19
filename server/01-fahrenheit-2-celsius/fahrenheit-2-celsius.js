@@ -1,3 +1,5 @@
-const fahrenheitToCelsius = () => { return 0 };
+const fahrenheitToCelsius = (fahrenheit) => { 
+    return (fahrenheit - 32) * 5 / 9;
+};
 
 module.exports = { fahrenheitToCelsius };
